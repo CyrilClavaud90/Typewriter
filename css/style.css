@@ -1,0 +1,90 @@
+body {
+    background-color: gainsboro;
+    height: 100vh;
+}
+
+header,
+main {
+    width: 950px;
+    margin: auto;
+}
+
+h1 {
+    margin: 1rem auto 3rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #191919;
+}
+
+#screen {
+    height: 15rem;
+    margin: 0 auto 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background-color: #191919;
+    font-family: 'IBM Plex Mono', monospace;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#text {
+    white-space: pre-line;
+}
+
+#letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.key,
+.maj, 
+.backspace {
+    position: relative;
+    margin-bottom: 0.5rem;
+    border: gray solid 4px;
+    border-radius: 50px;
+    background-color: #191919;
+    color: aliceblue;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.key,
+.maj,
+.backspace:hover {
+    cursor: pointer;
+}
+
+#others {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#space {
+    width: 70%;
+}
+
+.backspace,
+.maj {
+    width: 12%;
+} 
+
+.secondary {
+    font-size: 1.1rem;
+    position: absolute;
+    top: 42px;
+    right: 15px;
+}
+
+.on {
+    border: orangered solid 4px;
+    color: orangered;
+    background-color: #191919;
+}
