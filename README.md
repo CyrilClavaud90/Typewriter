@@ -2,9 +2,7 @@
 
 ## Aperçu du projet
 
-<video controls>
-  <source src="./assets/Demo.mp4">
-</video>
+![image](./assets/Capture.png)
 
 ## Présentation
 
